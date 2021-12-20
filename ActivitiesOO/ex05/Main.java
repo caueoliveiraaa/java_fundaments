@@ -1,24 +1,21 @@
 package ActivitiesOO.ex05;
 
 @SuppressWarnings("all")
-
 public class Main {
+
     public static void main(String[] args) {
-        // 5) Desenvolver um sistema para retornar o menor número. Crie uma classe chamada Numero com as características:
 
-	    // Atributos
-	    // numero1, numero2, numero3
+        // Develop a system to return the lowest number. 
+		// Create a class called Number with the atributes:
+	    // number1, number2, number3
+	    // Create a Construtor
+		// Methods:
+	    // obtainNumber() = void ; lowestNumber() = int ; 
+		// obtainNumber() asks for three numbers and lowestNumber() 
+		// needs to verify which number is the lowest
 
-	    // Métodos
-	    // Construtor
-	    // obterNumero:void
-	    // menorNumero:int
-
-        // Método obterNumero: Pede três números
-        // Método menorNumero: Precisa verificar qual dos três números é o menor.
-
-		Numero n = new Numero();
-		
-        
+		Number n = new Number();
+		        
     }
+
 }

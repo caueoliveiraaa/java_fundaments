@@ -4,15 +4,13 @@ package ActivitiesOO.ex03;
 
 public class Main {
     public static void main(String[] args) {
-        // 3) Criar uma classe chamada Tabuada com a seguinte estrutura:
-	    // Atributos - numero
-        // Métodos: 
-	    // Construtor
-	    // obterNumero:void
-	    // calculo:String
 
-        //Método obterNumero: Pedirá um número para fazer a tabuada;
-        // Método calculo: Retorna a tabuada daquele número (Você pode retornar a estrutura do cálculo, exemplo: 5X2=10...)
+        // Create a class called TimesTable with the following structure:
+	    // Atributos - numero
+        // Construtor
+        // Métodos: obterNumero() = void ; calculo() = String; 
+        // obterNumero() = will ask for a number to execute the times table
+        // calculo() = Return the times table of the number typed
 
         TimesTable t = new TimesTable();
 

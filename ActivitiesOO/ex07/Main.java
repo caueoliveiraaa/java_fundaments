@@ -1,34 +1,24 @@
 package ActivitiesOO.ex07;
 
 @SuppressWarnings("all")
-
 public class Main {
+
     public static void main(String[] args) {
-        // 	7) Criar uma classe chamada Números com a seguinte estrutura:
+        
+        // Create a clss called Numbers
+        // Method obtainData = asks for two numbers
+        // Methods: amountEven(), amountOdd(), amountPositive(), amountNegative()
+        // Let's say the user informed the numbers -1 and 5, therefore the outcome would be:
+        //
+        // 1 Negative
+        // 6 Positives
+        // 3 Evens 
+        // 4 Odds
+        // 
+        // Method message() = returns a sentence with these pieces of information
 
-        // Atributos
-        // numero1, numero2
-        // 
-        // // Métodos
-        // Construtor
-        // obterDados():void
-        // qtdPares():int
-        // qtdImpares():int
-        // qtdPositivos():int
-        // qtdNegativos():int
-        // mensagem:void
-        // 
-        // Método obter dados: Peça dois números.
-        // Métodos: qtdPares, qtdImpares, qtdPositivos, qtdNegativos: Deve retornar a quantidade específica entre os valores informados.
-        // Vamos supor que o usuário informe os números -1 e 5, logo o resultado será:
-        // 1 Negativo
-        // 6 Positivos
-        // 3 Pares
-        // 4 Ímpares
-        // 
-        // Método mensagem: Crie uma frase com essas informações.
-
-        Numeros n = new Numeros();
+        Numbers n = new Numbers();
         
     }
+
 }

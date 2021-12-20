@@ -1,9 +1,10 @@
 package ActivitiesOO.ex01;
 
 @SuppressWarnings("all")
-
-public class Principal {
+public class Main {
     public static void main(String[] args) {
-        Produto p = new Produto();
+
+        Product p = new Product();
+
     }
 }

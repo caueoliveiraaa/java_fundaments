@@ -1,12 +1,13 @@
-package ActivitiesArrayList.atividade01;
+package ActivitiesArrayList.Activity01;
 
 import java.util.ArrayList;
 
 public class Main {
   
     public static void main(String[] args) {
-          // Array:
-        ArrayList<Person> dados = new ArrayList<Person>();
+
+        // Array:
+        ArrayList<Person> data = new ArrayList<Person>();
 
         // Instantiate objects: 
         Person p1 = new Person();
@@ -20,14 +21,16 @@ public class Main {
         p2.age = 26;
 
         // Add objects to array list
-        dados.add(p1);
-        dados.add(p2);
+        data.add(p1);
+        data.add(p2);
 
-        for (int i = 0; i < dados.size(); i++) {
-            System.out.println(dados.get(i).name);
-            System.out.println(dados.get(i).city);
-            System.out.println(dados.get(i).age);
+        for (int i = 0; i < data.size(); i++) {
+
+            System.out.println(data.get(i).name);
+            System.out.println(data.get(i).city);
+            System.out.println(data.get(i).age);
             System.out.println("---------------------");
+            
         }     
 
         }
