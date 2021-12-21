@@ -2,21 +2,22 @@ package Polymorfism;
 
 public class Standard {
 
-    // Atributes:
+    // Atributes
     double wage;
 
-    // Constructor:
+    // Constructor
     public Standard(double wage) {
+
         this.wage = wage;
         transportationTicket();
         incomeTax();
 
     }
     
-    // Methods:
+    // Methods
     public void transportationTicket() {
 
-        System.out.println("Standard ransportation ticket R$"+(wage*0.6));
+        System.out.println("Standard transportation ticket R$"+(wage*0.6));
 
     }
 

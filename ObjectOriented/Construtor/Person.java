@@ -1,20 +1,17 @@
 package ObjectOriented.Construtor;
-
 import javax.swing.JOptionPane;
 
-public class Pessoa {
+public class Person {
     
     // Construtor (Não existe construtor privato, sempre será public.)
     // (O construtor sempre terá o mesmo nome da classe)
-    public Pessoa() {
+
+    public Person() {
         JOptionPane.showMessageDialog(null, "Hello world!");
     }
 
-    public Pessoa (String nome) {
-        JOptionPane.showMessageDialog(null, "Olá " + nome);
+    public Person (String name, int age) {
+        JOptionPane.showMessageDialog(null, "Hello "+name+"! you are "+age+" years old.");
     }
 
-    public Pessoa (String nome, int idade) {
-        JOptionPane.showMessageDialog(null, "Olá "+nome+"! você tem "+idade+" anos.");
-    }
 }

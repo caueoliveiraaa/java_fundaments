@@ -1,22 +1,21 @@
-package Heritage.activity01;
+package Heritage.activity;
 
 import javax.swing.JOptionPane;
 
 public class Car extends Vehicle {
     
-    // Atributes:
-
+    // Atributes
     int year, engine;
     boolean sunRoof, hydraulicSteering;
     String fabricant, model, color;
     double value;
 
-    // Constructor:
+    // Constructor
     public Car (){
 
         getData();
         message();
-
+        
     }
 
     private void getData(){
@@ -34,6 +33,7 @@ public class Car extends Vehicle {
 
     }
 
+    // Message
     private void message(){
 
         String text = "Fabricant: "+fabricant;
@@ -46,7 +46,5 @@ public class Car extends Vehicle {
                text = "\nHydraulic Steering: "+(hydraulicSteering == true ? "Yes" : "No");
 
         JOptionPane.showMessageDialog(null, text);
-
     }
-
 }

@@ -3,8 +3,10 @@ package Exercicises_from_class2;
 import javax.swing.JOptionPane;
 
 public class Exercise4 {
+
     public static void main(String[] args) {
-        // 1 - Crie um vetor, peça para o usuário cinco números e exiba esses números informados em ordem contrária.
+
+        // Create an array, ask the user for five numbers and display the numbers backwards
 
         int [] number = new int[5];
 
@@ -16,4 +18,5 @@ public class Exercise4 {
         }
 
     }
+    
 }

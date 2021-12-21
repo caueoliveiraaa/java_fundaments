@@ -5,10 +5,11 @@ public class Exercise10 {
 
     // Iniciar o sistema
     public static void main(String[] args){
-        
-        // Exercise 10:
-        // Crie um conversor de moedas. O usuário irá informar o valor, em seguida o tipo de conversão: 
-        // real para dólar, real para euro, dólar para real e euro para real.
+
+        // Create a currency converter
+        // The user informs the value, then the type of conversion 
+        // reais to dollars, reais to pounds, 
+        // dollars to reias and pounds to reais
 
         int money = Integer.parseInt(JOptionPane.showInputDialog(null, "Type in the amount of money that is going to be converted: "));
 
@@ -29,11 +30,8 @@ public class Exercise10 {
 
             case "4": System.out.println("The conversion selected is: " + (money * 6.5)); break;
 
-            default: System.out.println("Invalid option. Reboot program." ); break;
+            default: System.out.println("Invalid option. Restart the program." ); break;
 
-        }
-
-
-        
-        }
+        }    
     }
+}

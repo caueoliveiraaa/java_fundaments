@@ -3,18 +3,17 @@ import javax.swing.JOptionPane;
 
 public class Exercise06 {
 
-    // Iniciar o sistema
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 6:
-        // Utilizando como base o horário de Brasília (apenas a hora), faça com que o usuário tenha uma lista de cidades, 
-        // exemplo: (Cidade do México, Nova Iorque, Tóquio), 
-        // em seguida informe a hora atual de Brasília. Retorne o horário da cidade escolhida
+        // Using Brasília's time zone (just the hour), give the user a list of cities, 
+        // Example = México City, New York, Tokyo), then, inform Brasília's time.
+        // Return the time of the chosen city
 
         String menu = "Choose a city";
                menu += "\n1) Lisboa";
                menu += "\n2) Barcelone";
-               menu += "\n3) Nova Iorque";
+               menu += "\n3) New York";
 
         int city = Integer.parseInt(JOptionPane.showInputDialog(null, menu));
 
@@ -22,6 +21,6 @@ public class Exercise06 {
 
         JOptionPane.showMessageDialog(null, city == 1 ? time+3 : city == 2 ? time+4 : time+2);
 
-
-        }
     }
+
+}

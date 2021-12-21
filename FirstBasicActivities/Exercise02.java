@@ -3,13 +3,13 @@ import javax.swing.JOptionPane;
 
 public class Exercise02 {
 
-    // Iniciar o sistema
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 2:
-        // And integer will be asked, return whether it is positive or negative, also if it is odd or even:
+        // An integer will be asked, return whether it is positive or negative
+        // Also if it is odd or even
               
-        int intNum = Integer.parseInt(JOptionPane.showInputDialog("Type in a whole number: "));
+        int intNum = Integer.parseInt(JOptionPane.showInputDialog("Inform a number: "));
         
         if (intNum >= 0 && (intNum % 2 == 0)) {
             System.out.println("This number is POSITIVE and EVEN!");
@@ -20,5 +20,7 @@ public class Exercise02 {
         }else if (intNum <= 0 && (intNum %2 != 0)) {
             System.out.println("This number is NEGATIVE and ODD!");
         }
+
     }
+
 }

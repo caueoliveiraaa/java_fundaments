@@ -3,11 +3,11 @@ import javax.swing.JOptionPane;
 
 public class Exercise01{
 
-    // Iniciate the system:
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 1:
-        // The user will have to type in the name, age and the city where they live. Return a phrase concatenating this information:
+        // The user will have to type in the name, age and the city where they live
+        // Return a message concatenating the values
         
         String name = JOptionPane.showInputDialog(null, "Type in your name: ");
 

@@ -10,7 +10,8 @@ public class Main {
         // The class which comes after "= new" overwrites methods from the other class 
         // when it has the same name but executes a different code: 
 
-
         Standard p2 = new Manager(1000);
+
     }
+    
 }

@@ -3,12 +3,11 @@ import javax.swing.JOptionPane;
 
 public class Exercise07 {
 
-    // Iniciar o sistema
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 7:
-        // Criar um sistema, onde o usuário informa um dia do mês de setembro, 
-        // retorne qual o dia da semana representa aquela data. Valide caso o número informado seja inferior a 1 e superior a 30.
+        // Create a system, where the user informs a day of Se 
+        // Return which day of the week represents that date and
 
         int day = Integer.parseInt(JOptionPane.showInputDialog(null, "Please, inform a day from Setember, 2021: "));
 

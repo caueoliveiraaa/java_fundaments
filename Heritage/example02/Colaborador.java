@@ -1,4 +1,4 @@
-package Heritage.exemplo02;
+package Heritage.example02;
 
 import javax.swing.JOptionPane;
 

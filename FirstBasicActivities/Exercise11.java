@@ -3,11 +3,10 @@ import javax.swing.JOptionPane;
 
 public class Exercise11 {
 
-    // Iniciate the system:
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 11:
-        // - Ask for the three sides of the triangle, return the kind of triangle:
+        // Ask for the three sides of the triangle, return the kind of triangle:
         // a) Isoceles: Two sides are equal and one is different;
         // b) Equilateal: All sides are equal;
         // c) Scalene: All sides are different;
@@ -29,6 +28,5 @@ public class Exercise11 {
         } else if (side3 == side1 && side2 != side3) {
             System.out.println("he triangle is isoceles!");
         }
-
-        }
     }
+}

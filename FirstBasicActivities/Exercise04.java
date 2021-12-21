@@ -3,11 +3,10 @@ import javax.swing.JOptionPane;
 
 public class Exercise04 {
 
-    // Iniciar o sistema
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 4:
-        // Peça um ano, retorne se é bissexto ou não.
+        // Ask for a number, return whether or not it is a leap year
 
         int year = Integer.parseInt(JOptionPane.showInputDialog("Type in a year: "));
 
@@ -17,5 +16,6 @@ public class Exercise04 {
             System.out.println("The year "+year+" isn't a leap year");
         }
 
-        }
     }
+
+}

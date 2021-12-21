@@ -1,22 +1,22 @@
 package FirstBasicActivities;
 public class Loops {
 
-    // Iniciate the system:
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Index:
+        // Index
         int index = 0;
 
-        // while loop:
+        // while loop
         while (index < 11) {
             System.out.println(index);
             index++;
         }
 
-        // Separate loops:
+        // Separate loops
         System.out.println("------------------------");
 
-        // Do While:
+        // Do While
         do {
             System.out.println(index);
             index--;

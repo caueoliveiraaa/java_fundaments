@@ -4,28 +4,40 @@ import javax.swing.JOptionPane;
 
 public class Exercise5 {
     public static void main(String[] args) {
-        // 2. Implementar um vetor para armazenar até 10 nomes, não poderá haver repetição dos nomes cadastrados.
+
+        // Implement an array to store until 10 names, there can't be duplicate names
         String [] names = new String[10];
 
-        int indice = 0;
+        int index = 0;
 
         do {
-            String name = JOptionPane.showInputDialog(null, "Type in the " + (indice + 1) + "° name: ");
+
+            String name = JOptionPane.showInputDialog(null, "Type in the " + (index + 1) + "° name: ");
             boolean exists = false;
 
             for (int i = 0; i < names.length; i++) {
+
                 if (name.equals(names[i])) {
+
                     exists = true;
+
                 }
+
             }
 
             if (exists == false) {
-                names[indice] = name;
-                indice++;
+
+                names[index] = name;
+                index++;
+
             } else {
+
                 JOptionPane.showMessageDialog(null, "This name already exists. PLease, try again.");
-            }            
-        } while (indice < 10);
+
+            }    
+
+        } while (index < 10);
 
     }
+    
 }

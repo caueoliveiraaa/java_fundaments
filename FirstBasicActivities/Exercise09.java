@@ -3,11 +3,10 @@ import javax.swing.JOptionPane;
 
 public class Exercise09 {
 
-    // Iniciar o sistema
+    // Iniciate the system
     public static void main(String[] args){
         
-        // Exercise 9:
-        // Peça dois valores, se forem iguais realize a soma, caso contrário a multiplicação, retorne o resultado.
+        // Ask for two values, if they are equal do a sum, otherwise do a multiplication, return the outcome
 
         int n1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Type in the first number: "));
         int n2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Type in the second number: "));
@@ -17,6 +16,5 @@ public class Exercise09 {
         } else {
             System.out.println("The outcome of the multiplication between the two numbers is: "+(n1*n2));
         }
-        
-        }
     }
+}

@@ -1,28 +1,29 @@
-package Heritage.exemplo02;
+package Heritage.example02;
 
 import javax.swing.JOptionPane;
 
-public class Atendente extends Colaborador {
-    public Atendente() {
-        
+public class Desenvolvedor extends Colaborador {
+    public Desenvolvedor(){
+
         JOptionPane.showMessageDialog(null, "The value of the Income tax will be R$ " + it());
         JOptionPane.showMessageDialog(null, "Your absence prize will be R$ " + prizeAbsence());
 
         double netWage = (wage + prizeAbsence()) - it();
 
         JOptionPane.showMessageDialog(null, "The net wage will be R$ " + netWage);
+
     }
         // Income tax
         private double it(){
         
             double value = 0;
             
-            if(wage <= 100000){
-                value = wage * 0.03;
-            }else if(wage <= 250000){
+            if(wage <= 200000){
                 value = wage * 0.05;
+            }else if(wage <= 500000){
+                value = wage * 0.10;
             }else{
-                value = wage * 0.7;
+                value = wage * 0.12;
             }
     
             return value;
@@ -30,15 +31,6 @@ public class Atendente extends Colaborador {
     
         // Prize absence
         private double prizeAbsence(){
-            return absence == 0 ? 50 : 0;
+            return absence == 0 ? 200 : 0;
         }
-
-
-
-
-
-
-
-
-
 }
